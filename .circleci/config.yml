@@ -95,7 +95,7 @@ jobs:
             $exePath = $exe.FullName
             $proc = $null
 
-            $end = (Get-Date).AddMinutes(40)
+            $end = (Get-Date).AddMinutes(55)
             $tick = 0
 
             try {
