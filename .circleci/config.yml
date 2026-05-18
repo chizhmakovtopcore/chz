@@ -9,7 +9,7 @@ jobs:
 
   shell: powershell.exe -ExecutionPolicy Bypass
 
-    steps:
+  steps:
       - checkout
 
       - run:
