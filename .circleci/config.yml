@@ -148,5 +148,4 @@ workflows:
   version: 2
   ci:
     jobs:
-      - build:
-          serial-group: ci-chain
+      - build
