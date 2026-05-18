@@ -2,10 +2,11 @@ version: 2.1
 
 jobs:
   build:
-    resource_class: windows.medium
     machine:
       image: windows-server-2022-gui:current
       shell: powershell.exe -ExecutionPolicy Bypass
+
+    resource_class: windows.medium
 
     steps:
       - checkout
